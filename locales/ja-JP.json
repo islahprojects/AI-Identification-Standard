@@ -1,0 +1,18 @@
+{
+  "meta": { "language": "日本語", "locale": "ja-JP", "lastUpdated": "2026-01-15", "translator": "AI ID Core Team", "status": "stable" },
+  "ui": {
+    "stateRendered": "AIが制作に関わりました 🧬",
+    "stateLive": "AIライブ 🧬",
+    "stateText": "AI ID 🧬",
+    "ariaLabel": "AI支援コンテンツ：検証済み人間-AIコラボレーション",
+    "tooltip": "この作品にはAIの強化が含まれます。詳細：ai-id.org"
+  },
+  "manifesto": {
+    "tagline": "マークは印；IDはシステム。",
+    "corePromise": "私たちは協力を記録し、欺瞞ではありません。",
+    "elderNote": "🧬を見れば、常に文脈がわかります。",
+    "philosophy": { "I_am": "人間の起源（主権点）", "A_im": "AI実行（拡張された意図）", "ID": "アイデンティティ層（検証）" }
+  },
+  "compliance": { "transparencyAct2026": "ユニバーサルAIマーク標準v1.0に準拠", "disclosureLevel": "conspicuous", "accessibility": "WCAG 2.2 AA" },
+  "attribution": { "foundationalAI": "Qwen3 (Alibaba Cloud)", "role": "A-im (Augmented Intent)", "standard": "Universal AI Mark" }
+}
