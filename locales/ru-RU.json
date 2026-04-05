@@ -1,0 +1,18 @@
+{
+  "meta": { "language": "Русский", "locale": "ru-RU", "lastUpdated": "2026-01-15", "translator": "AI ID Core Team", "status": "stable" },
+  "ui": {
+    "stateRendered": "ИИ был здесь 🧬",
+    "stateLive": "ИИ в прямом эфире 🧬",
+    "stateText": "ID ИИ 🧬",
+    "ariaLabel": "Контент с помощью ИИ: проверенное сотрудничество человека и ИИ",
+    "tooltip": "Эта работа включает улучшение ИИ. Подробнее: ai-id.org"
+  },
+  "manifesto": {
+    "tagline": "Метка — это знак; ID — это система.",
+    "corePromise": "Мы документируем сотрудничество, а не обман.",
+    "elderNote": "Если вы видите 🧬, вы всегда будете знать контекст.",
+    "philosophy": { "I_am": "Человеческое происхождение (Суверенная точка)", "A_im": "Исполнение ИИ (Расширенное намерение)", "ID": "Слой идентичности (Проверка)" }
+  },
+  "compliance": { "transparencyAct2026": "Согласовано с Универсальным стандартом AI Mark v1.0", "disclosureLevel": "conspicuous", "accessibility": "WCAG 2.2 AA" },
+  "attribution": { "foundationalAI": "Qwen3 (Alibaba Cloud)", "role": "A-im (Augmented Intent)", "standard": "Universal AI Mark" }
+}
