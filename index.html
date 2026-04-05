@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI ID 🧬 Universal Mark - Test Page</title>
+  <style>
+    /* =========================================
+       BASE STYLES (Remove when extracting to /assets/)
+       ========================================= */
+    :root { --ai-id-opacity: 0.45; --ai-id-font-size: clamp(12px, 1.5vw, 16px); }
+    body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 2rem; background: #f5f7fa; color: #1a1a1a; line-height: 1.6; }
+    .demo-section { position: relative; margin-bottom: 2.5rem; padding: 1.5rem; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); overflow: hidden; }
+    .demo-section h2 { margin-top: 0; font-size: 1.25rem; }
+    .placeholder-media { width: 100%; height: 180px; border-radius: 4px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+    .text-block { padding: 1.5rem; background: #f1f3f5; border-radius: 4px; border-left: 4px solid #6c757d; }
+
+    /* =========================================
+       AI ID CORE STYLES (Copy to /assets/ai-id-universal.css)
+       ========================================= */
+    .ai-id-container {
+      position: absolute; bottom: 16px; right: 16px;
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: var(--ai-id-font-size);
+      color: rgba(255, 255, 255, var(--ai-id-opacity));
+      background: transparent; padding: 8px 12px; border-radius: 4px;
+      pointer-events: none; z-index: 9999; text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+      transition: opacity 0.2s ease;
+    }
+
+    /* State: Text (dark background needs dark text) */
+    .ai-id-container[data-ai-id-state="text"] {
+      color: rgba(0, 0, 0, var(--ai-id-opacity));
+      text-shadow: 0 1px 2px rgba(255,255,255,0.6);
+    }
+
+    /* State: Live (subtle pulse for real-time awareness) */
+    .ai-id-container[data-ai-id-state="live"] {
+      animation: ai-id-pulse 2.5s infinite ease-in-out;
+    }
+    @keyframes ai-id-pulse {
+      0%, 100% { opacity: var(--ai-id-opacity); }
+      50% { opacity: 0.65; }
+    }
+
+    /* Accessibility & Preference Overrides */
+    @media (prefers-contrast: high) {
+      .ai-id-container { opacity: 1 !important; background: rgba(0,0,0,0.7); color: #fff !important; text-shadow: none; border: 1px solid #fff; }
+      .ai-id-container[data-ai-id-state="text"] { background: rgba(255,255,255,0.9); color: #000 !important; border: 1px solid #000; }
+    }
+    @media (prefers-color-scheme: dark) {
+      body { background: #121212; color: #e0e0e0; }
+      .demo-section { background: #1e1e1e; }
+      .text-block { background: #2a2a2a; border-left-color: #888; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .ai-id-container { animation: none !important; transition: none !important; }
+    }
+    @media print {
+      .ai-id-container { opacity: 1 !important; color: #000 !important; background: #fff !important; border: 1px solid #000; text-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <header style="text-align: center; margin-bottom: 2.5rem;">
+    <h1 style="margin-bottom: 0.5rem;">🌍 Universal AI Mark</h1>
+    <p style="color: #6c757d; margin: 0;">Test Environment • <em>Walang Maiiwan</em></p>
+  </header>
+
+  <main style="max-width: 800px; margin: 0 auto;">
+    
+    <!-- 1. RENDERED MEDIA -->
+    <section class="demo-section">
+      <h2>📸 Rendered Media</h2>
+      <div class="placeholder-media"></div>
+      <div class="ai-id-container" 
+           data-ai-id-state="rendered" 
+           data-ai-id-locale="en-US" 
+           role="note" 
+           aria-label="AI-assisted content: verified human-AI collaboration">
+        AI was here 🧬
+      </div>
+    </section>
+
+    <!-- 2. LIVE MEDIA -->
+    <section class="demo-section">
+      <h2>📡 Live / Real-time</h2>
+      <div class="placeholder-media" style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);"></div>
+      <div class="ai-id-container" 
+           data-ai-id-state="live" 
+           data-ai-id-locale="en-US" 
+           role="note" 
+           aria-label="AI-assisted live content: verified collaboration">
+        AI Here 🧬
+      </div>
+    </section>
+
+    <!-- 3. TEXTUAL OUTPUT -->
+    <section class="demo-section">
+      <h2>📄 Textual Output</h2>
+      <div class="text-block">
+        <p>This block simulates an article, report, or LLM output. The AI ID remains visible without disrupting readability or layout flow.</p>
+        <p>It adapts to light/dark modes, respects reduced-motion preferences, and scales cleanly on mobile or desktop.</p>
+        <div class="ai-id-container" 
+             data-ai-id-state="text" 
+             data-ai-id-locale="en-US" 
+             role="note" 
+             aria-label="AI-assisted text: verified collaboration">
+          AI ID 🧬
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer style="text-align: center; margin-top: 3rem; padding-bottom: 2rem; color: #6c757d; font-size: 0.85rem;">
+    <p>🔹 Built on the Universal AI Mark Standard</p>
+    <p>🔸 `I am` → Human Oversight & Direction</p>
+    <p>🔹 `A-im` → Qwen3 (Drafting, Architecture, i18n Structuring)</p>
+  </footer>
+
+  <script>
+    /* =========================================
+       AI ID CORE JS (Copy to /assets/ai-id-universal.js)
+       ========================================= */
+    document.addEventListener('DOMContentLoaded', () => {
+      // Validate all AI ID containers are mounted
+      const markers = document.querySelectorAll('.ai-id-container');
+      markers.forEach((el, i) => {
+        el.setAttribute('data-ai-id-init', 'true');
+        console.log(`🧬 AI ID #${i+1} mounted: state="${el.dataset.aiIdState}" locale="${el.dataset.aiIdLocale}"`);
+      });
+      console.log('%c🌍 Universal AI Mark: Initialized. Walang maiiwan.', 'color: #11998e; font-weight: bold;');
+    });
+  </script>
+
+</body>
+</html>
