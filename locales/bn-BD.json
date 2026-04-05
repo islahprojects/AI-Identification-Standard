@@ -1,0 +1,18 @@
+{
+  "meta": { "language": "বাংলা", "locale": "bn-BD", "lastUpdated": "2026-01-15", "translator": "AI ID Core Team", "status": "stable" },
+  "ui": {
+    "stateRendered": "AI এখানে ছিল 🧬",
+    "stateLive": "AI সরাসরি 🧬",
+    "stateText": "AI আইডি 🧬",
+    "ariaLabel": "AI-সহায়ক কন্টেন্ট: যাচাইকৃত মানব-AI সহযোগিতা",
+    "tooltip": "এই কাজে AI বর্ধিতকরণ রয়েছে। আরও জানুন: ai-id.org"
+  },
+  "manifesto": {
+    "tagline": "একটি চিহ্ন হল সংকেত; একটি ID হল ব্যবস্থা।",
+    "corePromise": "আমরা সহযোগিতা নথিভুক্ত করি, প্রতারণা নয়।",
+    "elderNote": "আপনি যদি 🧬 দেখেন, আপনি সবসময় প্রসঙ্গ জানবেন।",
+    "philosophy": { "I_am": "মানবীয় উৎস (সার্বভৌম বিন্দু)", "A_im": "AI নির্বাহ (বর্ধিত অভিপ্রায়)", "ID": "পরিচয় স্তর (যাচাইকরণ)" }
+  },
+  "compliance": { "transparencyAct2026": "সার্বজনীন AI মার্ক স্ট্যান্ডার্ড v1.0 এর সাথে সারিবদ্ধ", "disclosureLevel": "conspicuous", "accessibility": "WCAG 2.2 AA" },
+  "attribution": { "foundationalAI": "Qwen3 (Alibaba Cloud)", "role": "A-im (Augmented Intent)", "standard": "Universal AI Mark" }
+}
