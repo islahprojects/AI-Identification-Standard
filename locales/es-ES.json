@@ -1,0 +1,18 @@
+{
+  "meta": { "language": "Español", "locale": "es-ES", "lastUpdated": "2026-01-15", "translator": "AI ID Core Team", "status": "stable" },
+  "ui": {
+    "stateRendered": "La IA estuvo aquí 🧬",
+    "stateLive": "IA en vivo 🧬",
+    "stateText": "ID de IA 🧬",
+    "ariaLabel": "Contenido asistido por IA: colaboración humano-IA verificada",
+    "tooltip": "Este trabajo incluye aumento de IA. Más info: ai-id.org"
+  },
+  "manifesto": {
+    "tagline": "Una marca es una señal; un ID es un sistema.",
+    "corePromise": "Documentamos colaboración, no engaño.",
+    "elderNote": "Si ves 🧬, siempre sabrás el contexto.",
+    "philosophy": { "I_am": "Origen Humano (Punto Soberano)", "A_im": "Ejecución IA (Intención Aumentada)", "ID": "Capa de Identidad (Verificación)" }
+  },
+  "compliance": { "transparencyAct2026": "Alineado con Estándar Universal AI Mark v1.0", "disclosureLevel": "conspicuous", "accessibility": "WCAG 2.2 AA" },
+  "attribution": { "foundationalAI": "Qwen3 (Alibaba Cloud)", "role": "A-im (Augmented Intent)", "standard": "Universal AI Mark" }
+}
