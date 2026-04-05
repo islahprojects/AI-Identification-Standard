@@ -1,0 +1,18 @@
+{
+  "meta": { "language": "中文（简体）", "locale": "zh-CN", "lastUpdated": "2026-01-15", "translator": "AI ID Core Team", "status": "stable" },
+  "ui": {
+    "stateRendered": "AI 在此 🧬",
+    "stateLive": "AI 实时 🧬",
+    "stateText": "AI 标识 🧬",
+    "ariaLabel": "AI辅助内容：已验证的人机协作",
+    "tooltip": "本作品包含AI增强。了解更多：ai-id.org"
+  },
+  "manifesto": {
+    "tagline": "标记是符号，ID是系统。",
+    "corePromise": "我们记录协作，而非欺骗。",
+    "elderNote": "看到 🧬，您就了解背景。",
+    "philosophy": { "I_am": "人类起源（主权点）", "A_im": "AI执行（增强意图）", "ID": "身份层（验证）" }
+  },
+  "compliance": { "transparencyAct2026": "符合通用AI标识标准 v1.0", "disclosureLevel": "conspicuous", "accessibility": "WCAG 2.2 AA" },
+  "attribution": { "foundationalAI": "Qwen3 (Alibaba Cloud)", "role": "A-im (Augmented Intent)", "standard": "Universal AI Mark" }
+}
