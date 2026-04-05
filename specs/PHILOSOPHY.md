@@ -29,3 +29,27 @@
 ---
 
 ### The Collaboration Equation
+
+[I am] + [A-im] → [ID: AI was here 🧬]
+↓ ↓
+Intent Verified Output
+
+
+---
+
+### Ethical Boundaries & Scope
+- The `ID` **does not** judge quality, authenticity, or value.
+- The `ID` **does** document process, enabling informed engagement.
+- The `ID` is **persistent by design**. Removal or obfuscation without disclosure violates the spirit of the Universal AI Mark.
+- The standard is **voluntary**. It serves as a reference implementation for developers, creators, and institutions seeking transparent attribution.
+
+---
+
+### Implementation Principles
+1. **Human-First**: Clarity for people precedes machine optimization.
+2. **State-Aware**: The marker adapts to the medium (`rendered`, `live`, `text`).
+3. **Non-Intrusive**: Visible but respectful of creative space (30–50% opacity, title-safe placement).
+4. **Globally Aligned**: Satisfies "conspicuous disclosure" requirements across jurisdictions without prescribing mandatory formats.
+5. **Open & Forkable**: MIT-licensed. Adapt, localize, and extend. We only ask: keep the 🧬 visible.
+
+> *"We do not watermark to claim. We sign to clarify."*
