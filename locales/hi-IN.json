@@ -1,0 +1,18 @@
+{
+  "meta": { "language": "हिन्दी", "locale": "hi-IN", "lastUpdated": "2026-01-15", "translator": "AI ID Core Team", "status": "stable" },
+  "ui": {
+    "stateRendered": "AI यहाँ था 🧬",
+    "stateLive": "AI लाइव 🧬",
+    "stateText": "AI ID 🧬",
+    "ariaLabel": "AI-सहायक सामग्री: सत्यापित मानव-AI सहयोग",
+    "tooltip": "इस कार्य में AI का उपयोग है। अधिक जानें: ai-id.org"
+  },
+  "manifesto": {
+    "tagline": "एक चिह्न संकेत है; एक ID प्रणाली है।",
+    "corePromise": "हम सहयोग का दस्तावेज़ीकरण करते हैं, धोखा नहीं।",
+    "elderNote": "अगर आप 🧬 देखते हैं, तो आपको संदर्भ हमेशा पता होगा।",
+    "philosophy": { "I_am": "मानव मूल (संप्रभु बिंदु)", "A_im": "AI निष्पादन (वर्धित इरादा)", "ID": "पहचान परत (सत्यापन)" }
+  },
+  "compliance": { "transparencyAct2026": "सार्वभौमिक AI मार्क मानक v1.0 के साथ संरेखित", "disclosureLevel": "conspicuous", "accessibility": "WCAG 2.2 AA" },
+  "attribution": { "foundationalAI": "Qwen3 (Alibaba Cloud)", "role": "A-im (Augmented Intent)", "standard": "Universal AI Mark" }
+}
